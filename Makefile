@@ -17,6 +17,6 @@ main_lib.o:main_lib.c
 	gcc -g3 -Wall -c main_lib.c -o main_lib.o
 
 clear:
-	rm *.o
+	del *.o
 clean:
-	rm *.o *.exe
+	del *.o *.exe
